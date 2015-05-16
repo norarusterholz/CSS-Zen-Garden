@@ -1,0 +1,163 @@
+/* basic elements */
+html {
+    margin: 0px auto;
+    padding: 0;
+}
+body {
+    font: 11px Arial, Helvetica, sans-serif;
+    line-height: 15px;
+    text-align: left;
+    color: #000000;
+    background: #CCDCE9;
+    margin: 0 auto;
+    width: 930px;
+
+}
+p {
+    padding: 0px 0px 16px 0px;
+}
+h3 {
+    font: bold 11px Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    color: #000000;
+}
+a:link {
+    text-decoration: none;
+    color: #005092;
+}
+a:visited {
+    text-decoration: none;
+    color: #005092;
+}
+a:hover, a:focus, a:active {
+    color:  #F75D00;
+}
+abbr {
+    border-bottom: none;
+}
+
+
+/* specific divs */
+.page-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.intro {
+    min-width: 470px;
+    width: 100%;
+}
+
+header h1 {
+    background: transparent url(http://www.hsr.ch/fileadmin/templates/hsr/html/img/logo.gif) no-repeat top left;
+    display: block;
+    width: 219px;
+    height: 87px;
+    z-index: 3;
+
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+header h2 {
+    background-color: #005092;
+    color: #ffffff;
+    float: right;
+    margin: 100px 190px 4px 0px;
+    width: 410px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 0px 4px 7px;
+
+
+}
+header {
+    height: 195px;
+    background-image: url(http://www.hsr.ch/uploads/tx_icsslide/Header_Campus_01.jpg);
+    background-repeat: no-repeat;
+}
+
+.summary {
+    clear: both;
+    margin: -26px 20px 120px 10px;
+    width: 160px;
+    float: right;
+    background-color: #CCDCE9;
+}
+.summary p {
+    padding: 10px 10px 15px 10px;
+}
+
+.preamble {
+    width: 417px;
+    float: right;
+}
+.supporting {
+    width: 417px;
+    float: right;
+}
+
+footer {
+    border-top: 1px solid #B3B4B5;
+    padding-top: 2px;
+    height: 28px;
+}
+footer a:link, footer a:visited {
+    margin-right: 20px;
+}
+
+.sidebar {
+    display: block;
+    width: 198px;
+    height: 600px;
+    background: none;
+    z-index: 3;
+    float: left;
+    position: absolute;
+    padding: 0px 0px 0px 10px;
+}
+.sidebar .wrapper {
+
+}
+.sidebar h3.select {
+
+}
+.sidebar h3.archives {
+
+}
+.sidebar h3.resources {
+
+}
+
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid #b3b4b5;
+}
+.sidebar li {
+    list-style: none;
+    border-bottom: 1px solid #b3b4b5;
+}
+
+
+.sidebar li a:hover {
+    display: block;
+    padding: 0px 0px 0px 10px;
+    color: #F75D00;
+    background-image: url(http://www.hsr.ch/fileadmin/templates/hsr/html/img/navigation/right_orange.gif);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.extra1 {
+    background: transparent url(cr2.gif) top left no-repeat;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 148px;
+    height: 110px;
+}
